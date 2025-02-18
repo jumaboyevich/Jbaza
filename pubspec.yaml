@@ -19,6 +19,12 @@ dependencies:
   share_plus: ^6.3.2
   get_it: ^7.2.0
 
+dependency_overrides:
+  intl: ^0.18.1
+  win32: ^5.5.8
+  device_info_plus: ^11.2.1
+  sentry_flutter: ^8.10.1
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
