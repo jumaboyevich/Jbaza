@@ -1,13 +1,12 @@
 # This is a generated file; do not edit or check into version control.
-device_info_plus=/Users/javohirergashov/.pub-cache/hosted/pub.dev/device_info_plus-8.2.0/
-package_info_plus=/Users/javohirergashov/.pub-cache/hosted/pub.dev/package_info_plus-3.1.0/
-path_provider=/Users/javohirergashov/.pub-cache/hosted/pub.dev/path_provider-2.0.14/
-path_provider_android=/Users/javohirergashov/.pub-cache/hosted/pub.dev/path_provider_android-2.0.25/
-path_provider_foundation=/Users/javohirergashov/.pub-cache/hosted/pub.dev/path_provider_foundation-2.2.2/
-path_provider_linux=/Users/javohirergashov/.pub-cache/hosted/pub.dev/path_provider_linux-2.1.10/
-path_provider_windows=/Users/javohirergashov/.pub-cache/hosted/pub.dev/path_provider_windows-2.1.5/
-sentry_flutter=/Users/javohirergashov/.pub-cache/hosted/pub.dev/sentry_flutter-7.4.2/
-share_plus=/Users/javohirergashov/.pub-cache/hosted/pub.dev/share_plus-6.3.2/
-url_launcher_linux=/Users/javohirergashov/.pub-cache/hosted/pub.dev/url_launcher_linux-3.0.4/
-url_launcher_web=/Users/javohirergashov/.pub-cache/hosted/pub.dev/url_launcher_web-2.0.16/
-url_launcher_windows=/Users/javohirergashov/.pub-cache/hosted/pub.dev/url_launcher_windows-3.0.5/
+package_info_plus=/Users/creative/.pub-cache/hosted/pub.dev/package_info_plus-3.1.2/
+path_provider=/Users/creative/.pub-cache/hosted/pub.dev/path_provider-2.1.5/
+path_provider_android=/Users/creative/.pub-cache/hosted/pub.dev/path_provider_android-2.2.15/
+path_provider_foundation=/Users/creative/.pub-cache/hosted/pub.dev/path_provider_foundation-2.4.1/
+path_provider_linux=/Users/creative/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.1/
+path_provider_windows=/Users/creative/.pub-cache/hosted/pub.dev/path_provider_windows-2.3.0/
+sentry_flutter=/Users/creative/.pub-cache/hosted/pub.dev/sentry_flutter-7.20.2/
+share_plus=/Users/creative/.pub-cache/hosted/pub.dev/share_plus-6.3.4/
+url_launcher_linux=/Users/creative/.pub-cache/hosted/pub.dev/url_launcher_linux-3.2.1/
+url_launcher_web=/Users/creative/.pub-cache/hosted/pub.dev/url_launcher_web-2.4.0/
+url_launcher_windows=/Users/creative/.pub-cache/hosted/pub.dev/url_launcher_windows-3.1.4/
