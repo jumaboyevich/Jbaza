@@ -13,10 +13,7 @@ const String devOptionsBox = 'dev_options_box';
 const String enableDevOptionsKey = 'enable_dev_options_key';
 
 Future<void> setupConfigs(FutureOr<void> Function() app,
-    {String? sentryKey,
-    double traces = 0.5,
-    String? appVersion,
-    bool enableSentry = false}) async {
+    {String? sentryKey, double traces = 0.5, String? appVersion, bool enableSentry = false}) async {
   if (appVersion != null) mAppVersion = appVersion;
   isEnableSentry = enableSentry;
   await _initHive();
@@ -58,17 +55,13 @@ Future<void> _getDeviceInfo() async {
   }
 }
 
-Future<void> jbShare(
-    {String? text,
-    String? path,
-    String? fileTitle,
-    bool isFile = false}) async {
+Future<void> jbShare({String? text, String? path, String? fileTitle, bool isFile = false}) async {
   if (isFile) {
     if (path == null) throw VMException('Share path null');
-    Share.shareFiles([path], text: fileTitle);
+    SharePlus.instance.share(ShareParams(uri: Uri.file(path), text: fileTitle));
   } else {
     if (text == null) throw VMException('Share text null');
-    Share.share(text);
+    SharePlus.instance.share(ShareParams(text: fileTitle));
   }
 }
 
